@@ -212,3 +212,14 @@ h1 span,h2 span { background:linear-gradient(105deg,#fff 0%,#6fe6ff 46%,#8f73ff 
 @media (prefers-reduced-motion: reduce) {
   .academy-panel,.academy-copy h2,.academy-copy p,.academy-points,.academy-copy .btn,.academy-art .orb,.academy-art .floating-card,.academy-art::before { animation:none !important; }
 }
+
+
+/* MOBILE ICON-ONLY BRAND */
+@media (max-width: 720px) {
+  .site-header .brand-logo {
+    width: 44px !important;
+    height: 44px !important;
+    background: url("assets_brand_icon.png") center/contain no-repeat !important;
+  }
+  .site-header .brand-logo img { display: none !important; }
+}
