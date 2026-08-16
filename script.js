@@ -100,3 +100,4 @@ document.addEventListener('click', (event) => {
   void link.offsetWidth;
   link.classList.add('tap-pop');
 });
+(()=>{const intro=document.createElement('div');intro.className='page-intro';intro.innerHTML='<img src="anshcodex-logo.svg" alt="ANSHCODEX">';document.body.prepend(intro);requestAnimationFrame(()=>document.body.classList.add('brand-ready'));setTimeout(()=>intro.remove(),1800);document.addEventListener('click',e=>{const el=e.target.closest('a,button');if(!el||el.classList.contains('menu-btn'))return;el.classList.remove('tap-pop');void el.offsetWidth;el.classList.add('tap-pop')})})();
