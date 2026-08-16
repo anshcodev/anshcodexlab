@@ -81,3 +81,22 @@ async function setupQuoteForm() {
 }
 
 setupQuoteForm();
+
+// Brand entrance animation
+(() => {
+  const intro = document.createElement('div');
+  intro.className = 'page-intro';
+  intro.innerHTML = '<img src="anshcodex-logo.svg" alt="ANSHCODEX">';
+  document.body.prepend(intro);
+  requestAnimationFrame(() => document.body.classList.add('brand-ready'));
+  setTimeout(() => intro.remove(), 1800);
+})();
+
+// Small click feedback for primary actions and navigation.
+document.addEventListener('click', (event) => {
+  const link = event.target.closest('a,button');
+  if (!link || link.classList.contains('menu-btn')) return;
+  link.classList.remove('tap-pop');
+  void link.offsetWidth;
+  link.classList.add('tap-pop');
+});
