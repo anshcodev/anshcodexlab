@@ -24,6 +24,11 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
+const responsiveLogoStyles = document.createElement('link');
+responsiveLogoStyles.rel = 'stylesheet';
+responsiveLogoStyles.href = 'responsive-logo.css';
+document.head.appendChild(responsiveLogoStyles);
+
 const loadScript = (src) => new Promise((resolve, reject) => {
   const s = document.createElement('script');
   s.src = src;
