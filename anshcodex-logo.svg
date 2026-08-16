@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title desc"><title id="title">ANSHCODEX LABS</title><desc id="desc">Modern blue and violet ANSHCODEX LABS logo with A monogram and code symbol.</desc><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#21d7ff"/><stop offset=".52" stop-color="#2572ff"/><stop offset="1" stop-color="#9b4dff"/></linearGradient><filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="900" height="360" rx="40" fill="#050b16"/><g transform="translate(45 28)"><path d="M95 210 175 45l80 165-38 0-42-87-43 87z" fill="url(#g)" filter="url(#glow)"/><path d="m172 166 32 0 20 35-32 0z" fill="#f4f8ff"/><text x="205" y="194" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" fill="#f4f8ff">&lt;/&gt;</text><text x="315" y="165" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="800" letter-spacing="3" fill="#f4f8ff">ANSH</text><text x="553" y="165" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="800" letter-spacing="3" fill="url(#g)">CODEX</text><line x1="316" y1="190" x2="520" y2="190" stroke="#21d7ff" stroke-width="5" stroke-linecap="round"/><text x="455" y="245" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" letter-spacing="18" fill="#f4f8ff">LABS</text><line x1="315" y1="262" x2="395" y2="262" stroke="#21d7ff" stroke-width="3" stroke-linecap="round"/><line x1="515" y1="262" x2="595" y2="262" stroke="#9b4dff" stroke-width="3" stroke-linecap="round"/><text x="455" y="300" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="7" fill="#b9c6d9">BUILD • LEARN • INNOVATE</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ANSHCODEX Labs icon</title>
+  <desc id="desc">Abstract blue and cyan AC monogram for ANSHCODEX Labs.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143a88"/>
+      <stop offset="0.52" stop-color="#145dff"/>
+      <stop offset="1" stop-color="#159dff"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a43ff"/>
+      <stop offset="0.62" stop-color="#079fff"/>
+      <stop offset="1" stop-color="#15d7ff"/>
+    </linearGradient>
+  </defs>
+  <path d="M92 402 228 105l93 192-70 0-25-58-48 108-43 55z" fill="url(#blue)"/>
+  <path d="M174 399c43-95 105-176 185-202 45-15 86-12 119 5-30 10-55 22-76 40-39 33-73 80-82 118-7 31 14 55 50 59 29 3 64-3 103-13l27 39c-65 23-125 29-169 16-55-16-81-50-71-95 10-47 51-99 97-132 28-20 57-35 89-46-52-5-104 13-151 50-48 38-84 91-120 160h-86z" fill="url(#cyan)"/>
+</svg>
