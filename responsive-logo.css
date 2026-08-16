@@ -1,0 +1,36 @@
+/* ANSHCODEX LABS — responsive compact logo */
+.site-header .brand-logo img,
+.portal-page .logo,
+.auth-page main > a > img { transition: width .2s ease, height .2s ease, opacity .2s ease; }
+
+@media (max-width: 720px) {
+  .site-header .brand-logo,
+  .portal-header .brand-logo { width:48px; height:48px; flex:0 0 48px; overflow:hidden; }
+
+  .site-header .brand-logo img,
+  .portal-header .brand-logo img,
+  .portal-page .logo,
+  .auth-page main > a > img {
+    content:url('anshcodex-icon.svg');
+    width:48px !important;
+    height:48px !important;
+    max-width:none !important;
+    object-fit:contain;
+    border-radius:12px;
+    margin:0 auto;
+  }
+
+  .auth-page main > a { display:flex; justify-content:center; }
+}
+
+@media (max-width: 430px) {
+  .site-header .brand-logo,
+  .portal-header .brand-logo,
+  .site-header .brand-logo img,
+  .portal-header .brand-logo img,
+  .portal-page .logo,
+  .auth-page main > a > img {
+    width:42px !important;
+    height:42px !important;
+  }
+}
